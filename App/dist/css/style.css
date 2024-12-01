@@ -1,0 +1,22 @@
+.nav-custom {
+    font-size: 1.2em;
+    margin-right: 20px;
+    color: rgb(114, 114, 114);
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 7px;
+    transition: all;
+}
+
+.nav-custom:hover {
+    color: #007BFF;
+}
+
+.nav-custom.active {
+    color: #007BFF;
+    border-bottom: 2px solid #007BFF;
+}
+
+label {
+    font-weight: 500 !important;
+  }
